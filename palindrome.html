@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="palindrome.css">
+	<script src="palindrome.js"></script>
+</head>
+<body>
+	
+	<table>
+		<tr>
+			<td><b>Введите строку:</b></td>
+			<td><input type="text" id="inp_Pal" oninput="sendData()"></td>
+		</tr>
+		<tr>
+			<td><b>Результат:</b></td>
+			<td><div id="answer">&nbsp</div></td>
+		</tr>
+	</table>
+	
+	<hr>
+	<h2>Описание программы:</h2>
+		<text>
+			Программа принимает введенную строку и ищет в ней палиндромы(слова, которые читаются одинаково слева-направо и справа-налево)и выводит следующий результат:<br>
+			1)Если строка является палиндромом - выводится исходная строка.<br>
+			2)Если нет, то выводится самый длинный палиндром.<br>
+			3)Если палиндромов нет, то выводится первый символ.
+		</text>
+</body>
+</html>

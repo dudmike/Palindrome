@@ -1,0 +1,10 @@
+input	{
+	margin-left:10px;
+}
+#answer {
+	margin-left:10px;
+}
+td:nth-child(1) {
+	text-align: right;
+
+}
